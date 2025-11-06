@@ -1,0 +1,15 @@
+{
+	"id": "cfb6921d-7aa9-46db-bb0b-2e0291e63426",
+	"name": "Products",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:4000",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2025-11-05T20:37:42.413Z",
+	"_postman_exported_using": "Postman/11.69.5"
+}
