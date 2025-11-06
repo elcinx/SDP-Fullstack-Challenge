@@ -36,18 +36,21 @@ Bu sayede hem **API yanıtlarının tutarlılığı** hem de **kullanıcı aray�
 ```bash
 git clone https://github.com/elcinx/SDP-Fullstack-Challenge.git
 cd SDP-Fullstack-Challenge
+
 2️⃣ Backend Kurulumu
 bash
 Copy code
 cd backend
 bundle install
 rails s
+
 3️⃣ Frontend Kurulumu
 bash
 Copy code
 cd ../frontend/lovable-ui
 npm install
 npm run dev
+
 4️⃣ API Testlerini Çalıştır (Postman / Newman)
 bash
 Copy code
@@ -55,6 +58,7 @@ npx newman run products_api_collection.json -e products_env.json \
   -r cli,html,json \
   --reporter-html-export products_report.html \
   --reporter-json-export products_report.json
+
 5️⃣ E2E Testlerini Çalıştır (Cypress)
 Cypress Arayüzü (GUI) ile:
 bash
@@ -64,6 +68,7 @@ Headless (CI Modunda):
 bash
 Copy code
 npm run cy:run
+
 🎬 Demo Videosu
 Bu kısa demo, SDP Otomasyon Frameworkü içinde gerçekleştirilen ilk uçtan uca test senaryosunu göstermektedir.
 Senaryoda hem pozitif (happy path) hem de negatif test yolları yürütülmektedir.
